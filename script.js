@@ -33,9 +33,6 @@ function searchProduct() {
      updateCartDisplay();
      
   })};
-   
-   
-
    const cart = {};
 
 function addToCart(name, price, imgSrc) {
@@ -90,3 +87,4 @@ function addToCart(name, price, imgSrc) {
   }
 
    
+
