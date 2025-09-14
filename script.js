@@ -52,9 +52,7 @@ function addToCart(name, price, imgSrc) {
         console.log("Your Cart is Empty");
     }
       
-     updateCartDisplay();
-     
-      
+     updateCartDisplay();    
 }
 
   function removeFromCart(name) {
@@ -88,8 +86,7 @@ function addToCart(name, price, imgSrc) {
       total = total+item.price * item.quantity ;
       
     }
-     
-     
     totalElem.textContent = total.toFixed(2);
   }
+
    
