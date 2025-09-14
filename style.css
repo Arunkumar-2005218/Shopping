@@ -2,8 +2,6 @@
 body{
  margin: 0;
  padding: 0;
-
-
 }
 .main-content{
     width: 100%;
@@ -66,35 +64,6 @@ body{
 .Cart h2{
     text-align: center;
 }
- 
- 
-/*cart-p{
-    display:flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: white;
-    padding: opx 10px;
-    border-radius: 5px;
-    margin-top: 15px;
-}
-/*.cart-p>:nth-child(1){
-    width: 40px;
-}
-.cart-p>:nth-child(2){
-
-    font-weight: 600;
-    font-size: 14px;
-}
-.cart-p>:nth-child(3){
-    width: 25px;
-}
-.cart-p>:nth-child(4){
-    padding: 5px 15px;
-    background-color: red;
-    border: 0;
-    border-radius: 5px;
-}*/
-
 .total{
     background-color: black;
     color: white;
@@ -113,8 +82,6 @@ body{
 
 }
 
-
-
 .Cart ul li img{
     width: 10%;
 }
@@ -126,27 +93,4 @@ input{
     width: 7%;
 }
  
-  #toast {
-      visibility: hidden;
-      min-width: 200px;
-      margin-left: -100px;
-      background: #333;
-      color: #fff;
-      text-align: center;
-      border-radius: 5px;
-      padding: 10px;
-      position: fixed;
-      z-index: 1;
-      left: 50%;
-      bottom: 30px;
-      font-size: 16px;
-      opacity: 0;
-      transition: opacity 0.5s, visibility 0.5s;
-    }
-#toast.show {
-    
- visibility: visible;
-opacity: 1;
-    
-
-}
+   
